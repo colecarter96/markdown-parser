@@ -158,7 +158,7 @@ public class MarkdownParseTest {
     
     @Test
     public void MarkdownParseTest9() throws IOException{
-        Path fileName = Path.of("testFiles/test-file8.md");
+        Path fileName = Path.of("testFiles/test-file9.md");
         String content = Files.readString(fileName);
         String[] split = content.split("\n");
         ArrayList<String> links = new ArrayList<String>();
