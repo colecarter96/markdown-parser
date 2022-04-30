@@ -1,1 +1,1 @@
-[ ](thisisnotalink)
+[link](thisisnotalink)
