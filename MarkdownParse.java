@@ -12,6 +12,7 @@ public class MarkdownParse{
         // find the next [, then find the ], then find the (, then read link upto next )
         int currentIndex = 0;
         while(currentIndex < markdown.length()) {
+            
             int exclamation = markdown.indexOf("!");
             int openBracket = markdown.indexOf("[", currentIndex);
             if(exclamation < openBracket && exclamation != -1){
@@ -26,10 +27,14 @@ public class MarkdownParse{
                 break;
             }
             int closeParen = markdown.indexOf(")", openParen);
+            int space = markdown.indexOf(" ", openBracket);
             if(openBracket == -1 || closeBracket == -1 || openParen == -1 || closeParen == -1){
                 break;
             }
             if(markdown.substring(openParen + 1, closeParen).indexOf(".") < 0){
+                break;
+            }
+            if(openParen < space && closeParen > space){
                 break;
             }
             toReturn = markdown.substring(openParen + 1, closeParen);
