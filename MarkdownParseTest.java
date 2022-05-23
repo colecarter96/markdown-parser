@@ -173,6 +173,23 @@ public class MarkdownParseTest {
         assertEquals(res, links);
     }
 
+    @Test
+    public void MarkdownParseTest10() throws IOException{
+        Path fileName = Path.of("labReportTest1.md");
+        String content = Files.readString(fileName);
+        String[] split = content.split("\n");
+        ArrayList<String> links = new ArrayList<String>();
+        for(String s: split){
+            if(MarkdownParse.getLinks(s) != null){
+                links.add(MarkdownParse.getLinks(s));
+            }
+        }
+
+        ArrayList<String> res = new ArrayList<String>();
+
+        assertEquals(res, links);
+    }
+
 
 
 

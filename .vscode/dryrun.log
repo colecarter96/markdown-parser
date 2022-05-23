@@ -1,3 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
-
+make: Entering directory `/Users/colecarter/Documents/GitHub/markdown-parser'
+ 
+javac MarkdownParse.java
+make: Leaving directory `/Users/colecarter/Documents/GitHub/markdown-parser'
+ 
