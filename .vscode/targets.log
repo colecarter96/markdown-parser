@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Sun May 22 22:28:29 2022
+# Make data base, printed on Wed Jun  8 10:56:50 2022
 
 # Variables
 
@@ -38,13 +38,11 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/05/t831w2p92376_b4413g16jp40000gn/T/vscode-ipc-f0cab800-9017-4c56-b35f-19d830d26a3d.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/05/t831w2p92376_b4413g16jp40000gn/T/vscode-ipc-c5e90293-379a-42dc-ba2d-273969c00359.sock
 # environment
 VSCODE_CWD = /
 # environment
 PATH = /Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-# environment
-LaunchInstanceID = A262275E-F81D-4F2F-96F0-DFF9CBF6C898
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -68,7 +66,7 @@ HOME = /Users/colecarter
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/colecarter/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = /Users/colecarter/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = colecarter
 # environment
@@ -102,7 +100,7 @@ TMPDIR = /var/folders/05/t831w2p92376_b4413g16jp40000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/colecarter/Library/Application Support/Code/1.67.1-main.sock
+VSCODE_IPC_HOOK = /Users/colecarter/Library/Application Support/Code/1.67.2-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -125,8 +123,6 @@ MAKEFILES :=
 <F = $(notdir $<)
 # environment
 LC_ALL = C
-# environment
-SECURITYSESSIONID = 186aa
 # automatic
 ^F = $(notdir $^)
 # default
@@ -136,9 +132,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 400
+VSCODE_PID = 2714
 # variable set hash-table stats:
-# Load=63/1024=6%, Rehash=0, Collisions=1/86=1%
+# Load=61/1024=6%, Rehash=0, Collisions=1/84=1%
 
 # Pattern-specific Variable Values
 
@@ -241,7 +237,7 @@ MarkdownParse.java:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun May 22 22:28:29 2022
+# Finished Make data base on Wed Jun  8 10:56:50 2022
 
  
 make: *** No rule to make target `all'.  Stop.
